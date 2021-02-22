@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app-whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    z-index: 999;
+}
+.app-whatsapp img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+header div {
+    padding-top: 50px;
+}
+h1, h4 {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h4 {
+    margin-top: 5px;
+
+}
+header div small {
+    font-size: 40px;
+}
+header div small:first-child {
+    position: relative;
+    left: 10px;
+}
+header div small:last-child {
+    position: relative;
+    right: 8px;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+
+.image-planeta {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
+}
+.image-planeta img {
+    width: 100%
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 65px ;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+h5 {
+    color: #3366cc;
+}
+.container  small{
+    color: #54595d;
+}
+.idiomas {
+    text-align: center;
+}
+.i-1, .i-9  {
+    text-align: right;
+    padding-right: 15%;
+}
+.i-2, .i-10  {
+    text-align: left;
+    padding-left: 15%;
+}
+.i-3, .i-7  {
+    text-align: right;
+    padding-right: 30%;
+}
+.i-4, .i-8 {
+    text-align: left;
+    padding-left: 30%;
+}
+.i-5  {
+    text-align: right;
+    padding-right: 40%;
+}
+.i-6 {
+    text-align: left;
+    padding-left: 40%;
+}
+
+.idiomas h5:nth-of-type(odd){
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.idiomas h5 {
+    position: relative;
+    top: 15px;
+    font-size: 16px;
+}
+.search {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #c8ccd1;
+}
+.search .search-arriba {
+    border: 1px solid #54595d;
+    border-radius: 4px;
+    width: 420px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.search button {
+    width: 50px;
+    height: 39px;
+    background-color: #36c;
+    border-radius: 4px;
+    border: 1px solid #36c;
+}
+.search button img {
+    width: 20px;
+    height: 20px;
+}
+.search span img {
+    width: 12px;
+    height: 12px;
+}
+.search span {
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+}
+
+.search input{
+    position: relative;
+    top: -5px;
+    width: 331px;
+    height: 38px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.search-abajo a{
+    margin: 0 auto;
+    width: 250px;
+    height: 35px;
+    border: 1px solid #54595d;
+    display: flex;
+    align-items: center;
+}
+.search-abajo span {
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 1rem;
+}
+.letras {
+    width: 25px;
+    padding-left: 10px;
+}
+.flecha {
+    width: 20px;
+    padding-right: 10px;
+}
+.search-abajo {
+    display: flex;
+}
+.search-abajo hr {
+    width: 70px;
+    border-bottom: 1px solid #c8ccd1;
+    height: 2px;
+}
+.linea-left {
+    position: relative;
+    left: calc(50% - 210px);
+    top: 17px;
+}
+.linea-right {
+    position: relative;
+    right: calc(50% - 210px);
+    top: 17px;
+}
+/* ********************** */
+.columnas div img {
+    width: 45px;
+    float: right;
+    margin-right: 10px;
+}
+.columnas {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+.columnas a {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    grid-template-rows: none;
+}
+
+.par {
+    grid-row: span 3;
+}
+
+
+footer { 
+    display: flex;
+    font-size: 16px;
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+}
+small a {
+    padding-right: 10px;
+}
